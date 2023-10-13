@@ -28,6 +28,7 @@ int main()
 {
     germanshephard d;
 
-    d.speak
+    d.speak();
+    
 return 0;
 }
