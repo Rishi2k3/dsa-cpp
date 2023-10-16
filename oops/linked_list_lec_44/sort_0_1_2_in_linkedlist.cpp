@@ -1,3 +1,5 @@
+// sort 0 1 2 in a linked list using count approach and then replace linked list items 
+
 Node* sortList(Node *head){
 
     int zerocount=0;
