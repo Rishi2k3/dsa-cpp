@@ -18,9 +18,7 @@ public:
     }
 
     // destructor
-
-   
-};
+    };
 
 void insertathead(node *&head, int d)
 {

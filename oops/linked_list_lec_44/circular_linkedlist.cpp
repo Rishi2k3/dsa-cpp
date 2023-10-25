@@ -137,7 +137,7 @@ int main()
     print(tail);
 
     insertode(tail, 5, 6);
-    print(tail);
+    print(tail) ;
 
     insertode(tail, 9, 10);
     print(tail);
@@ -145,8 +145,9 @@ int main()
     insertode(tail, 3, 4);
     print(tail);
 
-    deletenode(tail,5);
+    insertode(tail, 3 , 99);
     print(tail);
+
 
     return 0;
 }

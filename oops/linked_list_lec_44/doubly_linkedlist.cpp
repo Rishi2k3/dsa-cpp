@@ -156,14 +156,15 @@ int main()
 
     insertatmid(tail,head,4,47);
     print(head);
-   
 
-    cout << "length is : " << getlength(head) << endl;
 
     deletenode(tail,head,7);
     print(head);
     cout<< " head is : "<<head->data<<endl;    
-    cout<< " tail is : "<<tail->data<<endl;    
+    cout<< " tail is : "<<tail->data<<endl; 
+
+    insertathead(head,76);
+    print(head);   
 
 
     return 0;
